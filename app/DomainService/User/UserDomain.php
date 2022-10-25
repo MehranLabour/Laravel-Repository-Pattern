@@ -13,7 +13,7 @@ class UserDomain extends BaseDomain implements UserDomainInterface {
     protected $repository;
 
     /**
-     * UserRepository constructor.
+     * UserDomain constructor.
      *
      * @param Userrepository $repositry
     */

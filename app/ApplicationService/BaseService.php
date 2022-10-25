@@ -10,14 +10,14 @@ use App\DomainService\BaseDomain;
 class BaseService implements ServiceInterface
 {
     /**
-     * @var Repository
+     * @var Domain
      */
     protected $domain;
 
     /**
-     * BaseRepository constructor.
+     * BaseService constructor.
      *
-     * @param Repository $repository
+     * @param Domain $repository
      */
     public function __construct(BaseDomain $domain)
     {

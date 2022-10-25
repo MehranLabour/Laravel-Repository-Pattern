@@ -13,7 +13,7 @@ class UserService extends BaseService implements UserServiceInterface {
     protected $domain;
 
     /**
-     * UserDomain constructor.
+     * UserService constructor.
      *
      * @param UserDomain $repositry
     */

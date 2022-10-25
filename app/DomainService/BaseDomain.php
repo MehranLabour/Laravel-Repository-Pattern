@@ -15,7 +15,7 @@ class BaseDomain implements DomainInterface
     protected $repository;
 
     /**
-     * BaseRepository constructor.
+     * BaseDomain constructor.
      *
      * @param Repository $repository
      */
